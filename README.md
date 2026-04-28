@@ -12,12 +12,12 @@ I have organized my learning into numbered modules for easy navigation:
 | **02** | [String Basics](./C++/02-String-Basics/) | Palindromes, anagrams, and ASCII manipulation. | done |
 | **03** | [Two Pointers](./C++/03-Two-Pointers/) | Optimal searching in sorted arrays. | done |
 | **04** | [Sliding Window](./C++/04-Sliding-Window/) | Subarray/Substring optimization ($O(n)$). | done |
-| **05** | [Stack](./C++/05-Stack/) | LIFO, balanced parentheses, and recursion-mimicking. | X |
-| **06** | [Queue](./C++/06-Queue/) | FIFO, circular buffers, and BFS foundations. | X |
-| **07** | [LinkedList](./C++/07-LinkedList/) | Dynamic memory, node reversal, and cycle detection. | X |
-| **08** | [Trees](./C++/08-Trees/) | Binary Trees, BST, and DFS/BFS traversals. | X |
-| **09** | [Binary Search](./C++//09-Binary-Search/) | Searching in $O(\log n)$ and search space reduction. | X |
-| **10** | [Recursion](./C++/10-Recursion/) | Base cases, stack memory, and backtracking. | X |
+| **05** | [Stack](./C++/05-Stack/) | LIFO, balanced parentheses, and recursion-mimicking. | Learning |
+| **06** | [Queue](./C++/06-Queue/) | FIFO, circular buffers, and BFS foundations. | Learning |
+| **07** | [LinkedList](./C++/07-LinkedList/) | Dynamic memory, node reversal, and cycle detection. | Learinig |
+| **08** | [Trees](./C++/08-Trees/) | Binary Trees, BST, and DFS/BFS traversals. | Learning |
+| **09** | [Binary Search](./C++//09-Binary-Search/) | Searching in $O(\log n)$ and search space reduction. | Learning |
+| **10** | [Recursion](./C++/10-Recursion/) | Base cases, stack memory, and backtracking. | Learning |
 | **11** | [Mixed Problems](./C++/11-Mixed-Problems/) | Challenging problems requiring multiple concepts. | X |
 
 ---
