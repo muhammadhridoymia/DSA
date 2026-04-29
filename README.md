@@ -1,4 +1,4 @@
-# Data Structures & Algorithms (DSA) Roadmap
+# Data Structures and Algorithms (DSA) Roadmap
 
 Welcome to my DSA repository! This project is a systematic log of my journey mastering problem-solving patterns and data structures using C++. My goal is to build a strong foundation in algorithmic thinking and optimization.
 
@@ -24,9 +24,9 @@ I have organized my learning into numbered modules for easy navigation:
 
 ## Technical Details
 
-- **Language:** C++
-- **Focus:** Time & Space Complexity Analysis
-- **Goal:** Moving from brute-force $O(n^2)$ to optimized $O(n \log n)$ or $O(n)$ solutions.
+- **Language:** C++ and JavaScript
+- **Focus:** Step by step.
+- **Goal:** Time & Space Complexity Analysis and How to think like a solver.
 
 ---
 ## How to Use
