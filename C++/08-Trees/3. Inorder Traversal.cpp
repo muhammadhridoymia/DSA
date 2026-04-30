@@ -1,6 +1,7 @@
-// Preorder Traversal of a Binary Tree
-//Root → Left → Right
-// Given the root of a binary tree, return the preorder traversal of its nodes' values.
+// Inorder Traversal of a Binary Tree
+// Left → Root → Right
+// Given the root of a binary tree, return the inorder traversal of its nodes' values.
+
 
 #include <iostream>
 #include <vector>
@@ -13,14 +14,14 @@ struct TreeNode {
     TreeNode* right;
 };
 
-void preorderTraversal(TreeNode* root, vector<int>& result) {
+void inorderTraversal(TreeNode* root, vector<int>& result) {
     if (root == nullptr) {
         return;
     }
-
-    result.push_back(root->data);
-    preorderTraversal(root->left, result);
-    preorderTraversal(root->right, result);
+    
+    inorderTraversal(root->left, result); 
+    result.push_back(root->data); 
+    inorderTraversal(root->right, result);
 }
 
 int main() {
@@ -34,9 +35,9 @@ int main() {
     root->right->right = nullptr;
 
     vector<int> result;
-    preorderTraversal(root, result);
+    inorderTraversal(root, result);
 
-    cout << "Preorder Traversal: ";
+    cout << "Inorder Traversal: ";
     for (int value : result) {
         cout << value << " ";
     }
