@@ -4,8 +4,7 @@
 // You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
 var addTwoNumbers = function (l1, l2) {
-
-    const dummy = new ListNode(0);
+  const dummy = new ListNode(0);
 
   let current = dummy;
 
@@ -26,6 +25,5 @@ var addTwoNumbers = function (l1, l2) {
     if (l1) l1 = l1.next;
     if (l2) l2 = l2.next;
   }
-
   return dummy.next;
 };
