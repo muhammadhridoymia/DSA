@@ -30,5 +30,4 @@ const Remove = (arr) => {
 };
 
 const array = [1, 2, 3, 4, 5, 4, 6, 7, 8, 4, 9, 4];
-
 console.log(Remove(array));
