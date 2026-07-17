@@ -1,4 +1,8 @@
 // Reverse a String
+// Example
+// text="hello"; 
+// output ="olleh"
+
 #include <iostream>
 #include <string>
 using namespace std;

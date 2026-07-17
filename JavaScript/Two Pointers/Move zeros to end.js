@@ -17,7 +17,7 @@ const Move = (arr) => {
     }
   }
   while (index < arr.length) {
-    arr[index] = 0
+    arr[index] = 0;
     index++;
   }
   return arr;
