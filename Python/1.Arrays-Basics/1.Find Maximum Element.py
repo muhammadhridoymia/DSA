@@ -12,4 +12,3 @@ def find_max(arr):
 
 array = [3, 5, 7, 2, 8]
 print("Maximum element:", find_max(array))
-
